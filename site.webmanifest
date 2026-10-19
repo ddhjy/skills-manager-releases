@@ -1,7 +1,7 @@
 {
   "name": "Skills Manager",
   "short_name": "Skills Manager",
-  "description": "把 AI 编程 Agent 的技能收进一个库，用符号链接部署到 54 个 Agent。原生 macOS 应用，免费开源。",
+  "description": "把 AI 编程 Agent 的技能收进一个库，用符号链接部署到 54 个 Agent。原生 macOS 应用，免费使用。",
   "lang": "zh-CN",
   "start_url": "./",
   "scope": "./",
