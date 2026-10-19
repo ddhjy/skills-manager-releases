@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>404 · Skills Manager</title>
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --paper: #f5f4ef; --ink: #15132b; --ink-2: #5c5a72; --violet: #635cf4; --violet-ink: #221c73;
+    --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body { font: 18px/1.5 var(--font); color: var(--ink); background: var(--paper); -webkit-font-smoothing: antialiased; display: grid; grid-template-rows: 1fr 1fr; }
+  .top, .bottom { padding: clamp(16px, 2.5vw, 32px); }
+  .top { display: flex; align-items: flex-start; }
+  .bottom { background: var(--violet); color: var(--paper); display: grid; align-content: end; justify-items: center; text-align: center; gap: 24px; }
+  .brand { display: inline-flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 700; text-decoration: none; color: inherit; }
+  .brand img { width: 32px; height: 32px; display: block; }
+  h1 {
+    position: fixed; left: 0; right: 0; top: 50%; text-align: center; padding: 0 16px;
+    font-size: clamp(54px, 11vw, 150px); line-height: 1; font-weight: 700; letter-spacing: -0.03em;
+    transform: translateY(-1.33em);
+    background-image: linear-gradient(var(--ink) 1.33em, var(--violet-ink) 1.33em);
+    -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent;
+  }
+  h1 span { display: block; white-space: nowrap; }
+  p { max-width: 36ch; }
+  p[lang="en"] { opacity: 0.8; }
+  nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-bottom: 32px; }
+  a.btn { display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; font-weight: 600; text-decoration: none; background: var(--paper); color: var(--ink); }
+  a.btn.quiet { background: var(--violet-ink); color: var(--paper); }
+  a:focus-visible { outline: 3px solid var(--paper); outline-offset: 3px; }
+</style>
+</head>
+<body>
+<div class="top">
+  <a class="brand" href="/"><img src="/assets/img/brand.svg" alt=""><span>Skills Manager</span></a>
+</div>
+<h1><span>这一页</span><span>不存在。</span></h1>
+<div class="bottom">
+  <p>它可能被移动了，或者链接打错了。</p>
+  <p lang="en">This page doesn’t exist. It may have moved, or the link has a typo.</p>
+  <nav aria-label="去向 / Where to go">
+    <a class="btn" href="/">回到首页</a>
+    <a class="btn quiet" href="/en/" lang="en" hreflang="en">English home</a>
+    <a class="btn quiet" href="/download/SkillsManager-0.1.0.dmg" data-download-dmg>下载 Skills Manager</a>
+  </nav>
+</div>
+</body>
+</html>
